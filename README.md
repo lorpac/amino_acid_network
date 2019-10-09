@@ -52,5 +52,5 @@ python analysis.py
 You will find the results in the `results\` folder.
 ## Authors
 
-Lorenza Pacini - [lopac](https://github.com/lorpac)
+Lorenza Pacini - [lorpac](https://github.com/lorpac)
 
