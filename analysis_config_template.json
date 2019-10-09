@@ -1,0 +1,21 @@
+{
+  "name": "alpha_synucleine_6cu8",
+  "pdb_id": "6cu8",
+  "cutoff": 5,
+  "pdbs_path": null,
+  "select_positions": false,
+  "start": null,
+  "stop": null,
+  "dim": "4D",
+  "variant": false,
+  "threshold": null,
+  "reference_folder": null,
+  "single_mutation": false,
+  "source": null,
+  "subnet_highnw": false,
+  "subnet_highwij": false,
+  "draw_neighborhoods": false,
+  "calculate_cliques": false,
+  "draw_large_cliques": false,
+  "remove_hydrogen_atoms": true
+}
