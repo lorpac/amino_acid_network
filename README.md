@@ -12,7 +12,7 @@ git clone https://github.com/lorpac/amino_acid_network.git
 
 ### Prerequisites
 
-The required packages are listed in the file [requirements.txt](https://). To install the requirements with [pip](https://pypi.org/project/pip/), type:
+The required packages are listed in the file [requirements.txt]([https://](https://github.com/lorpac/amino_acid_network/blob/master/requirements.txt)). To install the requirements with [pip](https://pypi.org/project/pip/), type:
 
 ```
 pip install -r requirements.txt
@@ -23,7 +23,7 @@ You also need Rodigo Gilardi's class [biographs](https://github.com/rodogi/biogr
 
 ## Set-up the analysis
 
-To set up the parameters of you analysis, you need to create a configuration file following the template of [analysis_config_tenplate.json](https://) and save it as `analysis_config_tenplate.json`. In the configuration file, the following parameters must be given (in any order):
+To set up the parameters of you analysis, you need to create a configuration file following the template of [analysis_config_template.json]([https://](https://github.com/lorpac/amino_acid_network/blob/master/analysis_config_template.json)) and save it as `analysis_config.json`. In the configuration file, the following parameters must be given (in any order):
 
 - `name`: a name of your analysis
 - `pdb_id`: either a `.pdb` or `.ent` file name found in `data\`, or a valid PDB identifier. Note: in the second casem a internet connection will be needed to download the required pdb structure from the [RCSB database](http://www.rcsb.org/).
