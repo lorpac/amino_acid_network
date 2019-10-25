@@ -1,4 +1,4 @@
-# Protein Structure Analysis
+# Amino Acid Network
 
 A Python Script to generate and analyze an Amino Acid Network.
 
