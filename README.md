@@ -18,7 +18,7 @@ The required packages are listed in the file [requirements.txt](https://github.c
 pip install -r requirements.txt
 ```
 
-You also need Rodigo Gilardi's class [biographs](https://github.com/rodogi/biographs). Clone it and do not forget to add the class folder (`biograps/biographs`) to you Python path. Alternatively, if you are using a pip virtual environment `env`, you can manually add it to your packages by saving a copy in the directory `env\Lib\site-packages`. To do so, move to the site-packages folder of your virtual environment or of your Python system install ad type
+You also need Rodigo Gilardi's class [biographs](https://github.com/rodogi/biographs). Clone it and do not forget to add the class folder (`biograps/biographs`) to you Python path. Alternatively, if you are using a pip virtual environment `env`, you can manually add it to your packages by saving a copy in the directory `env/Lib/site-packages`. To do so, move to the site-packages folder of your virtual environment or of your Python system install ad type
 ```
 git clone https://github.com/rodogi/biographs .tmp;
 mv .tmp/biographs .;
@@ -37,10 +37,10 @@ For other operating systems, or if you encounter problems, please follow the ins
 
 ## Set-up the analysis
 
-To set up the parameters of you analysis, you need to create a configuration file following the template of [analysis_config_template.json]([https://](https://github.com/lorpac/amino_acid_network/blob/master/analysis_config_template.json)) and save it as `analysis_config.json`. In the configuration file, the following parameters must be given (in any order):
+To set up the parameters of you analysis, you need to create a configuration file following the template of [analysis_config_template.json](https://github.com/lorpac/amino_acid_network/blob/master/analysis_config_template.json) and save it as `analysis_config.json`. In the configuration file, the following parameters must be given (in any order):
 
 - `name`: a name of your analysis
-- `pdb_id`: either a `.pdb` or `.ent` file name found in `data\`, or a valid PDB identifier. Note: in the second casem a internet connection will be needed to download the required pdb structure from the [RCSB database](http://www.rcsb.org/).
+- `pdb_id`: either a `.pdb` or `.ent` file name found in `data/`, or a valid PDB identifier. Note: in the second casem a internet connection will be needed to download the required pdb structure from the [RCSB database](http://www.rcsb.org/).
 - `cutoff`: cutoff distance to determine the connectivity between amino acids
 - `dim`: type of links to consider. Valid options are: `all` (or an empty string, all links), `1D` (between first neighbors in the sequence), `2D` (between amino acids belonging to the same secondary structure element), `3D` (between amino acids belonging to the same chain but to the different secondary structure elements), `4D` (between amino acids belonging to different chains), `3-4D` (3D and 4D), `1-2D` (3D and 4D).
 - `select positions`: boolean.
@@ -63,7 +63,7 @@ To run the analysis, type:
 ```
 python analysis.py
 ```
-You will find the results in the `results\` folder.
+You will find the results in the `results/` folder.
 ## Authors
 
 Lorenza Pacini - [lorpac](https://github.com/lorpac)
