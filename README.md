@@ -12,13 +12,27 @@ git clone https://github.com/lorpac/amino_acid_network.git
 
 ### Prerequisites
 
-The required packages are listed in the file [requirements.txt]([https://](https://github.com/lorpac/amino_acid_network/blob/master/requirements.txt)). To install the requirements with [pip](https://pypi.org/project/pip/), type:
+The required packages are listed in the file [requirements.txt](https://github.com/lorpac/amino_acid_network/blob/master/requirements.txt). To install the requirements with [pip](https://pypi.org/project/pip/), type:
 
 ```
 pip install -r requirements.txt
 ```
 
-You also need Rodigo Gilardi's class [biographs](https://github.com/rodogi/biographs). Clone it and do not forget to add it to you Python path. Alternatively, if you are using a pip virtual environment `env`, you can manually add it to your packages by saving a copy in the directory `env\Lib\site-packages`. If you are not familiar with virtual environments, [here](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) you will find the detailed instructions on how to create and manage virtual environments with `pip`.
+You also need Rodigo Gilardi's class [biographs](https://github.com/rodogi/biographs). Clone it and do not forget to add the class folder (`biograps/biographs`) to you Python path. Alternatively, if you are using a pip virtual environment `env`, you can manually add it to your packages by saving a copy in the directory `env\Lib\site-packages`. To do so, move to the site-packages folder of your virtual environment or of your Python system install ad type
+```
+git clone https://github.com/rodogi/biographs .tmp;
+mv .tmp/biographs .;
+rm .tmp -f -r
+```
+If you are not familiar with virtual environments, [here](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) you will find the detailed instructions on how to create and manage virtual environments with `pip`.
+
+Finally, you need to have LaTex installed on your system in order to produce the plots with Matplotlib. On Ubuntu, you can install LaTex and the necessary extensions by running
+
+```
+sudo apt-get install dvipng texlive-latex-base texlive-latex-extra texlive-fonts-recommended
+```
+
+For other operating systems, or if you encounter problems, please follow the instructions in Matplotlib's [tutorial](https://matplotlib.org/3.1.0/tutorials/text/usetex.html).
 
 
 ## Set-up the analysis
