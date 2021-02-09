@@ -77,4 +77,8 @@ Lorenza Pacini - [lorpac](https://github.com/lorpac)
 If you use this code in you work, please cite:
 
 - Dorantes-Gilardi, R., Bourgeat, L., Pacini, L., Vuillon, L., & Lesieur, C. (2018). In proteins, the structural responses of a position to mutation rely on the Goldilocks principle: not too many links, not too few. Physical Chemistry Chemical Physics, 20(39), 25399-25410.
+  
+## Licence
+
+The Building network source code is available under the [CeCILL](http://cecill.info/) licence. Please see `LICENCE.txt` for details.
 
