@@ -6,4 +6,4 @@ __pycache__
 data/pdbs
 results
 activate.ps1
- .ipynb_checkpoints/
+.ipynb_checkpoints/
