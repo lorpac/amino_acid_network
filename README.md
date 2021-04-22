@@ -80,5 +80,5 @@ If you use this code in you work, please cite:
   
 ## Licence
 
-The Building network source code is available under the [CeCILL](http://cecill.info/) licence. Please see `LICENCE.txt` for details.
+The Amino Acid Network source code is available under the [CeCILL](http://cecill.info/) licence. Please see `LICENCE.txt` for details.
 
