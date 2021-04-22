@@ -1,6 +1,6 @@
 # Amino Acid Network
 
-A Python Script to generate and analyze an Amino Acid Network.
+A Python Script to generate and analyze an Amino Acid Network and a Jupyter Notebook to create an Electrostatic Network.
 
 ## Getting Started
 
@@ -39,7 +39,9 @@ sudo apt-get install cm-super
 For other operating systems, or if you encounter problems, please follow the instructions in Matplotlib's [tutorial](https://matplotlib.org/3.1.0/tutorials/text/usetex.html).
 
 
-## Set-up the analysis
+## Amino Acid Network
+
+### Set-up the analysis
 
 To set up the parameters of you analysis, you need to create a configuration file following the template of [analysis_config_template.json](https://github.com/lorpac/amino_acid_network/blob/master/analysis_config_template.json) and save it as `analysis_config.json`. In the configuration file, the following parameters must be given (in any order):
 
@@ -60,7 +62,7 @@ To set up the parameters of you analysis, you need to create a configuration fil
   - `draw_cliques`: boolean. If true, the cliques of the Amino Acid Network are drawn.
 - `remove_hydrogen_atoms`: boolean. If true, pre-process the PDB file to remove the hydrogen atoms.
 
-## Run the analysis
+### Run the analysis
 
 To run the analysis, type:
 
@@ -68,15 +70,25 @@ To run the analysis, type:
 python analysis.py
 ```
 You will find the results in the `results/` folder.
+
+## Electrostatic Network
+
+A jupyter notebook [electrostatic_network.ipynb](https://github.com/lorpac/amino_acid_network/blob/master/electrostatic_network.ipynb) is provided to create the Electrostatic Network of a protein, starting from it Amino Acid Network. The instructions for the configuration of the analysis are provided within the notebook.
+
 ## Authors
 
 Lorenza Pacini - [lorpac](https://github.com/lorpac)
 
 ## How to cite
 
-If you use this code in you work, please cite:
+If you use the Amino Acid Network code in you work, please cite:
 
-- Dorantes-Gilardi, R., Bourgeat, L., Pacini, L., Vuillon, L., & Lesieur, C. (2018). In proteins, the structural responses of a position to mutation rely on the Goldilocks principle: not too many links, not too few. Physical Chemistry Chemical Physics, 20(39), 25399-25410.
+- Dorantes-Gilardi, R., Bourgeat, L., Pacini, L., Vuillon, L., and Lesieur, C. (2018). In proteins, the structural responses of a position to mutation rely on the Goldilocks principle: not too many links, not too few. Physical Chemistry Chemical Physics, 20(39), 25399-25410.
+
+If you use the Electrostatic Network code in your work, please cite:
+
+- Bourgeat L., Pacini L., Serghei A., and Lesieur C. (2021). Experimental diagnostic of sequence-variant dynamic
+perturbations revealed by broadband dielectric spectroscopy. Structure [*under review*].
   
 ## Licence
 

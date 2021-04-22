@@ -1,0 +1,14 @@
+{
+  "name": "CtxB5",
+  "pdb_id": "1eei",
+  "pdbs_path": null,
+  "cutoff": 5,
+  "select_positions": true,
+  "start": 1,
+  "stop": 104,
+  "dim": "all",
+  "charged_histidine" : false,
+  "charged_Nter" : true,
+  "charged_Cter" : true,
+  "selected_chain_subnet": "E"
+}

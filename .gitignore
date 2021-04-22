@@ -1,10 +1,8 @@
 .vscode
 env
 analysis_config.json
+electrostatic_network_config.json
 __pycache__
-data/pdb_database_robust
 data/pdbs
-data/Optimized_1be9_pdbs_mutants
-data/__pycache__
 results
 activate.ps1
